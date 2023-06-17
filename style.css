@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.box:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px 5px 0 0;
+}
+
+.box:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 10px;
+    background-color: #333;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.html-icon,
+.css-icon,
+.git-icon,
+.js-icon {
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.html-icon {
+    color: #E44D26;
+}
+
+.css-icon {
+    color: #2965f1;
+}
+
+.git-icon {
+    color: #F05032;
+}
+
+.js-icon {
+    color: #F7DF1E;
+}
